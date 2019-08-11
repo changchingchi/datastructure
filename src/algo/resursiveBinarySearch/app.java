@@ -4,7 +4,7 @@ package algo.resursiveBinarySearch;
  * Created by chchi on 8/22/17.
  */
 public class app {
-    public static void main(String[] args) {
+    public  void main(String[] args) {
         int[] array = {1, 2, 4, 6, 9, 10, 11, 20, 27, 29};
         System.out.print(binarySearch(20, 0, array.length - 1, array));
     }
@@ -14,7 +14,7 @@ public class app {
      * @param array  the data collection
      * @return the index of the target if available, otherwise return -1
      */
-    public static int binarySearch(int target, int startIndex, int endIndex, int[] array) {
+    public  int binarySearch(int target, int startIndex, int endIndex, int[] array) {
         int mid;
         mid = ((startIndex + endIndex) / 2);
         if (array[mid] == target) return mid;

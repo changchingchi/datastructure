@@ -1,5 +1,5 @@
 public class MyClass {
-    public static void main(String args[]) {
+    public  void main(String args[]) {
         doublylinkedlist list = new doublylinkedlist();
         list.insertFirst(3);
         list.insertFirst(5);
